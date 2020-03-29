@@ -1,0 +1,93 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "44025586",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "44025587",
+      "name": "方向箭头-向下",
+      "font_class": "arrow-",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "44025588",
+      "name": "方向箭头-向上",
+      "font_class": "arrow-1",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "44025589",
+      "name": "方向箭头-向右",
+      "font_class": "fangxiangjiantou-xiangyou",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "44025590",
+      "name": "方向箭头-向左",
+      "font_class": "fangxiangjiantou-xiangzuo",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "44025591",
+      "name": "方向三角-向上",
+      "font_class": "fangxiangsanjiao-xiangshang",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "44025592",
+      "name": "方向三角-向右",
+      "font_class": "fangxiangsanjiao-xiangyou",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "44025593",
+      "name": "方向三角-向下",
+      "font_class": "fangxiangsanjiao-xiangxia",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "44025594",
+      "name": "方向三角-向左",
+      "font_class": "fangxiangsanjiao-xiangzuo",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "44025595",
+      "name": "位置",
+      "font_class": "ziyuan",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "947053",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "3670102",
+      "name": "搜索",
+      "font_class": "tubiaolunkuo-",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    }
+  ]
+}

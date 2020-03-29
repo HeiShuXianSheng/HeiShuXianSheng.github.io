@@ -1,0 +1,146 @@
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+    }
+} /* 大于1280px的时候修改版心宽度 */
+a {
+    text-decoration: none;
+    color: #666;
+}
+p,
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+article,
+aside {
+    margin-top: 10px;
+}
+/* header */
+header {
+    padding-left: 0 !important;
+}
+.logo {
+    background-color: #429ad9;
+}
+.logo img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.logo .visible-xs {
+    display: block;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+.nav {
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+}
+/* 进入小屏幕时让li浮动 */
+@media screen and (max-width: 991px) {
+    .nav li {
+        float: left;
+        width: 20%;
+    }
+}
+
+.nav li a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+}
+.nav li a:hover {
+    background-color: #fff;
+    text-decoration: none;
+    color: #333;
+}
+.nav li a::before {
+    /* 修改引入的字体图标 */
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.news ul li {
+    float: left;
+    width: 25%;
+    height: 128px;
+}
+.news ul li img {
+    width: 100%;
+    height: 100%;
+}
+.news ul li:nth-child(1) {
+    width: 50%;
+    height: 266px;
+    padding-right: 10px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.news ul li:nth-child(2n) {
+    padding-right: 10px;
+}
+.news ul li:nth-child(n + 4) {
+    margin-top: 10px;
+}
+.news ul li:nth-child(n + 2) {
+    font-size: 12px;
+}
+.news li a {
+    position: relative;
+    display: block;
+    height: 100%;
+}
+.news li p {
+    width: 100%;
+    height: 41px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 5px 5px 0;
+    color: #fff;
+}
+.publish {
+    margin-top: 10px;
+}
+.publish .row {
+    border-top: 1px solid #ccc;
+}
+.publish .row .col-sm-3 {
+    padding: 5px 0;
+}
+.publish .row img {
+    width: 100%;
+}
+aside .banner img {
+    width: 100%;
+}
+aside .hot {
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+    border: 1px solid #ccc;
+    padding: 0 15px;
+}
+.hot strong {
+    display: block;
+    background-color: #337ab7;
+    width: 58px;
+    height: 28px;
+    margin-top: -1px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+}
+.href {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}

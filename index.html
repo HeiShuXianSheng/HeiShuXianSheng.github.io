@@ -1,17 +1,95 @@
-<!DOCTYPE HTML>
-<html lang='en'>
-<head charset='utf-8'>
-  <title>我的主页</title>
-  <style>
-    div {
-      width: 300px;
-      height: 300px;
-      background-color: pink;
-    }
-  </style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        html{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100%;
+        } 
+        body {
+            background: url('桌面.jpg') no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            
+        }
+        div {
+            width: 700px;
+            display: flex;
+            justify-content: space-between;
+        }
+        section {
+            width: 300px;
+            height: 300px;
+            background-color: rgba(109, 76, 65,.7);
+            color: rgb(255, 111, 0);
+            cursor: pointer;
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        section b {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+       section span {
+           font-size: 20px;
+       }
+       h1 {
+           font-size: 100px;
+           line-height: 110px;
+           color: rgba(255,111,0, 0.2);
+           transform: translate(-105px,75px);
+           transition: all .3s;
+       }
+       section:hover h1 {
+           transform: translate(0);
+           color: rgba(255,111,0, 1);
+       }
+    </style>
 </head>
 <body>
-  <div></div>
-</body>
+    <div>
+        <section>
+            <h1>1</h1>
+            <b>WELCOME</b>
+            <span>点击进入我的第一个页面</span>
+            <span></span>
+        </section>
+        <section>
+            <h1>2</h1>
+            <b>WELCOME</b>
+            <span>点击进入我的第二个页面</span>
+            <span></span>
+        </section>
+    </div>
 
+  
+    <script>
+        window.onload = function() {
+            var section = document.querySelectorAll('section');
+            section[0].onclick = function() {
+                location.href = 'bootstrap学习/index.html';
+
+            };
+            section[1].onclick = function() {
+                location.href = 'jd项目/index.html';
+
+            };
+
+        }
+    </script>
+</body>
 </html>
